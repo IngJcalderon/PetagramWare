@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".vista.fragment.RecyclerViewFragmentDetalle"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/civMascotaFavorita"
+            android:layout_width="210dp"
+            android:layout_height="210dp"
+            android:src="@drawable/perro2"
+            app:civ_border_color="#EEEEEE"
+            app:civ_border_width="4dp"
+            app:civ_shadow="true"
+            app:civ_shadow_radius="10"
+            app:civ_shadow_color="#8BC34A"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/tvNombreMascota"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:gravity="right"
+            android:textSize="@dimen/txthueso"
+            android:text="Fido"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"/>
+<!--
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvMascotaFavorita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+-->
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvFotosMascotaFavorita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+</LinearLayout>
+    <!--
+     android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/carviewltop"
+    -->
+
+</FrameLayout>

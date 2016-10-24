@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mx.unam.mascotamenus.MainActivity">
+
+    <item android:id="@+id/mContacto"
+        android:title="@string/mContacto"
+        android:orderInCategory="100">
+    </item>
+    <item android:id="@+id/mAcerca"
+        android:title="@string/mAcerca"
+        android:orderInCategory="101">
+    </item>
+
+    <item android:id="@+id/mConfCuenta"
+        android:title="@string/mConfCuenta"
+        android:orderInCategory="102">
+    </item>
+
+    <item android:id="@+id/mRecibirNotificaciones"
+        android:title="@string/mRecibirNotificaciones"
+        android:orderInCategory="103">
+    </item>
+</menu>
